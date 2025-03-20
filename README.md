@@ -49,8 +49,8 @@ SwiftFoundationEngineering
 📬 联系方式
 
 如果你有其他建议或想法，也可以直接联系我：
-	•	邮箱：[你的邮箱]
-	•	微信：[你的微信号]
+	•	邮箱：wangjie7629@163.com
+	
 
 ⸻
 
