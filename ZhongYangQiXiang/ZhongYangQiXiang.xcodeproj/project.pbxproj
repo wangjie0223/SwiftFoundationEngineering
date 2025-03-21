@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A03493FE2D8D103C000E6795 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03493FD2D8D103B000E6795 /* HomeView.swift */; };
+		A03494012D8D1181000E6795 /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = A03494002D8D1181000E6795 /* LookinServer */; };
+		A03494042D8D13A1000E6795 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = A03494032D8D13A1000E6795 /* CombineMoya */; };
+		A03494062D8D13A1000E6795 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = A03494052D8D13A1000E6795 /* Moya */; };
+		A03494082D8D3249000E6795 /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03494072D8D3248000E6795 /* HomeAPI.swift */; };
+		A034940A2D8D327C000E6795 /* TestPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03494092D8D3274000E6795 /* TestPost.swift */; };
+		A034940C2D8D32C9000E6795 /* DecisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034940B2D8D32C8000E6795 /* DecisionView.swift */; };
+		A034940F2D8D386B000E6795 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034940E2D8D386B000E6795 /* SwiftyJSON.swift */; };
 		A09B18BB2D8BEDB80039AB93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09B18B52D8BEDB80039AB93 /* Preview Assets.xcassets */; };
 		A09B18BC2D8BEDB80039AB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09B18B72D8BEDB80039AB93 /* Assets.xcassets */; };
 		A09B18BD2D8BEDB80039AB93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09B18B82D8BEDB80039AB93 /* ContentView.swift */; };
@@ -16,6 +23,11 @@
 
 /* Begin PBXFileReference section */
 		A03493FD2D8D103B000E6795 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A03494072D8D3248000E6795 /* HomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPI.swift; sourceTree = "<group>"; };
+		A03494092D8D3274000E6795 /* TestPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPost.swift; sourceTree = "<group>"; };
+		A034940B2D8D32C8000E6795 /* DecisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionView.swift; sourceTree = "<group>"; };
+		A034940D2D8D376B000E6795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A034940E2D8D386B000E6795 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		A09B18A42D8BEDA10039AB93 /* ZhongYangQiXiang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhongYangQiXiang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09B18B52D8BEDB80039AB93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A09B18B72D8BEDB80039AB93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -28,6 +40,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03494042D8D13A1000E6795 /* CombineMoya in Frameworks */,
+				A03494012D8D1181000E6795 /* LookinServer in Frameworks */,
+				A03494062D8D13A1000E6795 /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,11 +76,16 @@
 		A09B18BA2D8BEDB80039AB93 /* ZhongYangQiXiang */ = {
 			isa = PBXGroup;
 			children = (
+				A034940D2D8D376B000E6795 /* Info.plist */,
 				A09B18B62D8BEDB80039AB93 /* Preview Content */,
 				A09B18B72D8BEDB80039AB93 /* Assets.xcassets */,
 				A09B18B82D8BEDB80039AB93 /* ContentView.swift */,
+				A03494072D8D3248000E6795 /* HomeAPI.swift */,
+				A03494092D8D3274000E6795 /* TestPost.swift */,
+				A034940E2D8D386B000E6795 /* SwiftyJSON.swift */,
 				A03493FD2D8D103B000E6795 /* HomeView.swift */,
 				A09B18B92D8BEDB80039AB93 /* ZhongYangQiXiangApp.swift */,
+				A034940B2D8D32C8000E6795 /* DecisionView.swift */,
 			);
 			path = ZhongYangQiXiang;
 			sourceTree = "<group>";
@@ -87,6 +107,9 @@
 			);
 			name = ZhongYangQiXiang;
 			packageProductDependencies = (
+				A03494002D8D1181000E6795 /* LookinServer */,
+				A03494032D8D13A1000E6795 /* CombineMoya */,
+				A03494052D8D13A1000E6795 /* Moya */,
 			);
 			productName = ZhongYangQiXiang;
 			productReference = A09B18A42D8BEDA10039AB93 /* ZhongYangQiXiang.app */;
@@ -116,6 +139,10 @@
 			);
 			mainGroup = A09B189B2D8BEDA10039AB93;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A03493FF2D8D1181000E6795 /* XCLocalSwiftPackageReference "../../Downloads/LookinServer-develop" */,
+				A03494022D8D13A1000E6795 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A09B18A52D8BEDA10039AB93 /* Products */;
 			projectDirPath = "";
@@ -143,9 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A034940C2D8D32C9000E6795 /* DecisionView.swift in Sources */,
 				A03493FE2D8D103C000E6795 /* HomeView.swift in Sources */,
 				A09B18BD2D8BEDB80039AB93 /* ContentView.swift in Sources */,
+				A03494082D8D3249000E6795 /* HomeAPI.swift in Sources */,
 				A09B18BE2D8BEDB80039AB93 /* ZhongYangQiXiangApp.swift in Sources */,
+				A034940F2D8D386B000E6795 /* SwiftyJSON.swift in Sources */,
+				A034940A2D8D327C000E6795 /* TestPost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +313,7 @@
 				DEVELOPMENT_TEAM = V6654Q78C4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZhongYangQiXiang/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +343,7 @@
 				DEVELOPMENT_TEAM = V6654Q78C4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZhongYangQiXiang/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -351,6 +384,41 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A03493FF2D8D1181000E6795 /* XCLocalSwiftPackageReference "../../Downloads/LookinServer-develop" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/LookinServer-develop";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A03494022D8D13A1000E6795 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A03494002D8D1181000E6795 /* LookinServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LookinServer;
+		};
+		A03494032D8D13A1000E6795 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A03494022D8D13A1000E6795 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		A03494052D8D13A1000E6795 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A03494022D8D13A1000E6795 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A09B189C2D8BEDA10039AB93 /* Project object */;
 }

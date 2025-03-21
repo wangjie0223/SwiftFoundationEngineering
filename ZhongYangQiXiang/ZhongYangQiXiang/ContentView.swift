@@ -75,7 +75,6 @@ struct TabItemView: View {
 struct WeatherView: View { var body: some View { Text("天气") } }
 struct MapView: View { var body: some View { Text("地图") } }
 struct AlertsView: View { var body: some View { Text("预警") } }
-struct DecisionView: View { var body: some View { Text("决策") } }
 
 #Preview {
     ContentView()
