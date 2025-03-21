@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03493FE2D8D103C000E6795 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03493FD2D8D103B000E6795 /* HomeView.swift */; };
 		A09B18BB2D8BEDB80039AB93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09B18B52D8BEDB80039AB93 /* Preview Assets.xcassets */; };
 		A09B18BC2D8BEDB80039AB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09B18B72D8BEDB80039AB93 /* Assets.xcassets */; };
 		A09B18BD2D8BEDB80039AB93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09B18B82D8BEDB80039AB93 /* ContentView.swift */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A03493FD2D8D103B000E6795 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A09B18A42D8BEDA10039AB93 /* ZhongYangQiXiang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhongYangQiXiang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09B18B52D8BEDB80039AB93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A09B18B72D8BEDB80039AB93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				A09B18B62D8BEDB80039AB93 /* Preview Content */,
 				A09B18B72D8BEDB80039AB93 /* Assets.xcassets */,
 				A09B18B82D8BEDB80039AB93 /* ContentView.swift */,
+				A03493FD2D8D103B000E6795 /* HomeView.swift */,
 				A09B18B92D8BEDB80039AB93 /* ZhongYangQiXiangApp.swift */,
 			);
 			path = ZhongYangQiXiang;
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A03493FE2D8D103C000E6795 /* HomeView.swift in Sources */,
 				A09B18BD2D8BEDB80039AB93 /* ContentView.swift in Sources */,
 				A09B18BE2D8BEDB80039AB93 /* ZhongYangQiXiangApp.swift in Sources */,
 			);

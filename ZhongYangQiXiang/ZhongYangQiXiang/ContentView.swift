@@ -72,7 +72,6 @@ struct TabItemView: View {
 }
 
 // MARK: - 示例页面
-struct HomeView: View { var body: some View { Text("首页") } }
 struct WeatherView: View { var body: some View { Text("天气") } }
 struct MapView: View { var body: some View { Text("地图") } }
 struct AlertsView: View { var body: some View { Text("预警") } }
